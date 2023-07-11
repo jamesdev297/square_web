@@ -25,6 +25,7 @@ import 'package:square_web/model/player_nft_model.dart';
 import 'package:square_web/page/square/square_list_page_home.dart';
 import 'package:square_web/page/room/chat_page.dart';
 import 'package:square_web/service/bloc_manager.dart';
+import 'package:square_web/service/chat_message_manager.dart';
 import 'package:square_web/service/contact_manager.dart';
 import 'package:square_web/service/data_service.dart';
 import 'package:square_web/service/room_manager.dart';
@@ -318,7 +319,8 @@ class SquareManager {
       return MapEntry(MessageStatus.sendFailed, null);
     }
 
-    LogWidget.debug("SayCommand success");
+    LogWidget.debug("SayCommand success ${oldMessageManagerKey} // ${messageModel.sender} // ${messageModel.sendTime}");
+    // ChatMessageManager().changeMessage(oldMessageManagerKey!, messageModel.messageManagerKey!);
     SquareManager().globalSquareMap[messageModel.squareId]?["messages"].add(messageModel.toMap());
 
 

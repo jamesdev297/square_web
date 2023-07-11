@@ -261,15 +261,6 @@ class SquareChatMsgModel extends MessageModel {
   String? channelId;
   int? receivedTime;
 
-  @override
-  String? get messageManagerKey {
-    if(sender?.playerId == null || receivedTime == null) return null;
-    if(_messageManagerKey == null) {
-      _messageManagerKey = "${sender!.playerId}:$receivedTime";
-    }
-    return _messageManagerKey!;
-  }
-
   SquareChatMsgModel(
       { required this.squareId,
         required this.channelId,

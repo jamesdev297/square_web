@@ -1,0 +1,505 @@
+{
+  "@COMMON": {},
+  "common_00_sign_message": "--",
+  "common_01_error_content": "일시적인 오류가 발생했어요.\n잠시 후 다시 시도해주세요.",
+  "common_02_confirm": "확인",
+  "common_03_cancel": "취소",
+  "common_04_delete": "삭제",
+  "common_05_close": "닫기",
+  "common_06_network": "네트워크 연걸 상태가 좋지 않습니다.\n다시 시도해주세요.",
+  "common_07_expire_login": "연결이 만료되었습니다.\n다시 연결해 주세요.",
+  "common_08_unknown_user": "주소록에 등록되지 않은 사용자",
+  "common_09_loading": "불러오는 중",
+  "common_10_sent_emoji": "이모티콘을 보냈습니다.",
+  "common_11_sent_image": "사진을 보냈습니다.",
+  "common_12_sent_video": "동영상을 보냈습니다.",
+  "common_15_seen_here": "여기까지 읽으셨습니다.",
+  "common_16_not_added_contact": "주소록에 등록되지 않은 사용자입니다.\n금전 요구 등으로 인한 피해를 입지 않도록 주의해 주세요.",
+  "common_17_not_sent": "전송되지 않음",
+  "common_18_copied": "복사 완료!",
+  "common_19_logout": "연결 해제",
+  "common_20_logout_content": "현재 계정으로 다시 연결하시면 이어서 이용하실 수 있습니다.",
+  "common_21_logout_title": "연결을 해제하시겠어요?",
+  "common_25_error": "에러",
+  "common_26_restart": "재시작",
+  "common_27_no": "아니요",
+  "common_28_week": "주",
+  "common_29_day": "일",
+  "common_30_hour": "시간",
+  "common_31_minute": "분",
+  "common_32_sec": "초",
+  "common_33_now": "지금",
+  "common_34_minute": "{minutes}분",
+  "@common_34_minute": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "common_35_edit": "편집",
+  "common_36_complete": "완료",
+  "common_37_delete_history_title": "검색 기록 삭제",
+  "common_38_delete_history_content": "최근 검색 기록을 모두 삭제하시겠습니까?",
+  "common_39_no_history": "아이디 검색 기록이 없습니다.",
+  "common_40_qr_login": "QR 로그인",
+  "common_41_qr_login_content": "모바일 로그인을 하려면 모바일 디바이스의 카메라로 QR 코드를 스캔하세요.",
+  "common_42_qr_login_content": "코드는 #color#{sec}#color#초 동안 유효합니다.",
+  "@common_42_qr_login_content" : {
+    "placeholders": {
+      "sec": {}
+    }
+  },
+  "common_43_video": "동영상",
+  "common_44_image": "사진",
+  "common_45_saved": "저장 완료",
+  "common_46_expire": "원본 파일이 만료되어\n대상을 불러올 수 없어요.",
+  "common_47_close": "뒤로 버튼을 한번 더 누르시면 종료됩니다.",
+  "common_48_expire_session": "세션이 만료되었습니다.\n창을 닫고 다시 시도해주세요.",
+  "common_49_refresh": "새로고침",
+  "common_50_retry": "재시도",
+  "common_51_copy": "복사",
+  "common_52_limitSendImage": "사진 전송 제한",
+  "common_53_limitSendImageContent": "사진 전송은 한번에 {count}개까지 가능합니다.",
+  "@common_53_limitSendImageContent": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "common_54_plus": "확대 +",
+  "common_55_minus": "축소 -",
+  "common_56_original_size": "원본 크기",
+  "common_57_scale": "창에 맞춰 확대",
+  "common_58_service_error": "테스트 버전. 미지원",
+  "common_59_service_error": "Oops, an error occured",
+  "common_60_not_signed_up": "{name}님은 접속 이력이 없는 사용자입니다.",
+  "@common_60_not_signed_up": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "common_61_chat_link_copy": "채팅방 URL이 복사됨!",
+  "common_62_temp_chat_system_message": "상대에게 메시지를 보내지 않고 나갈 경우\n채팅방은 목록에서 사라집니다.",
+  "common_63_save": "저장",
+  "common_64_try_again": "재전송",
+  "common_65_set_language": "언어 설정",
+
+  "@CONTACTS_01": {},
+  "contacts_01_01_contacts": "주소록",
+  "contacts_01_02_search_wallet_name": "아이디, 이름으로 검색",
+  "contacts_01_03_my_profile": "내 프로필",
+  "contacts_01_04_abc": "이름순",
+  "contacts_01_05_online": "접속중",
+  "contacts_01_06_contacts": "주소록 {count}",
+  "@contacts_01_06_contacts": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "@CONTACTS_02": {},
+  "contacts_02_01_block_list": "차단 목록",
+  "contacts_02_02_unblock_user": "유저 차단 해제",
+  "contacts_02_03_block_empty": "차단 유저 없음",
+
+  "@CONTACTS_04": {},
+  "contacts_04_01_empty": "주소록이 비었습니다.",
+  "contacts_04_02_empty_content": "새로운 주소를 주소록에 추가해보세요.",
+  "contacts_04_03_add_contact": "주소록에 추가하기",
+
+  "@CONTACTS_05": {},
+  "contacts_05_01_add_new_contact": "새로운 주소 추가",
+
+  "@LOGIN_02": {},
+  "login_02_01_title": "SQUARE에 연결",
+  "login_02_02_content": "아래 암호화폐 지갑에 연결하거나 새 지갑을\n만들어 로그인 해주세요.",
+  "login_02_03_metamask": "MetaMask 지갑 연결",
+  "login_02_04_klip_login": "Klip & KakaoTalk",
+  "login_02_05_text": "암호화폐 지갑이 뭔가요?",
+  "login_02_06_text": "왜 지갑으로 로그인하나요?",
+  "login_02_07_qr": "남은 시간 : {minutes}분 {sec}초",
+  "@login_02_07_qr": {
+    "placeholders": {
+      "minutes": {},
+      "sec": {}
+    }
+  },
+  "login_02_08_kaikas_login": "Kaikas 지갑 연결",
+  "login_02_09_kaikas_not_enabled": "Kaikas 지갑은 크롬 브라우저에서만 지원됩니다.",
+  "login_02_08_google_login": "Sign in with Google",
+  "login_02_08_apple_login": "Sign in with Apple",
+
+  "login_01_01_title" : "Before You Connect",
+  "login_01_01_title_1" : "1 보안키를 공유하지 마세요.",
+  "login_01_01_content_1" : "비밀번호, 개인 키 또는 비밀 복구 문구를 포함해서 보안이 필요한 정보를 누구와도 공유하지 마십시오.",
+  "login_01_01_title_2" : "2 유사 사이트에 주의하세요.",
+  "login_01_01_content_2" : "SQUARE 서비스의 공식 주소는 https://square.test입니다. 서비스 이용 시 주소를 한번 더 확인하세요.",
+  "login_01_01_title_3" : "3 서명 전 확인하세요.",
+  "login_01_01_content_3" : "When connect MetaMask :",
+  "login_01_01_content_3_1" : "ｏ --",
+  "login_01_01_content_3_2" : "ｏ --",
+  "login_01_01_content_3_3" : "ｏ --",
+  "login_01_01_title_4" : "4 사용 후 로그아웃 하세요.",
+  "login_01_01_content_4" : "공용 기기 또는 다른 사용자의 기기와 같이 사용자 계정 보안에 주의가 필요한 환경에서는 로그인을 유지하거나 기기에 비밀번호를 저장해서는 안됩니다.",
+  "login_01_01_title_5" : "5 제3자 서비스의 이용약관을 확인하세요.",
+  "login_01_01_content_5" : "--",
+  "login_01_01_content_6" : "--",
+  "login_01_01_button" : "Understand and Continue",
+  "login_01_01_connect" : "Connect",
+  "login_01_01_verify_email_content_0": "--",
+  "login_01_01_verify_email_content_1": "Check the email we sent",
+  "login_01_01_verify_email_content_2": "to keep your private keys and seed phrase safe!",
+  "login_01_01_verify_email_content_3": "Not in inbox or spam folder?",
+  "login_01_01_verify_email_google_button" : "Open gmail to confirm",
+  "login_01_01_verify_email_skip_button" : "Skip",
+  "login_01_01_verify_email_resend_button" : "Resend Mail",
+  "login_01_01_verify_email_resend_delay": "You can resend email after {timer}",
+  "@login_01_01_verify_email_resend_delay": {
+    "placeholders" : {
+      "timer": {}
+    }
+  },
+ "login_01_01_fail_to_send_email_title": "Failed to send",
+  "login_01_01_fail_to_send_email_context_0": "Our attempt to send an email to",
+  "login_01_01_fail_to_send_email_context_1": "failed.",
+  "login_01_01_fail_to_send_email_context_2": "Please try again.",
+  "login_01_01_verified_email_title": "Congratulations!",
+  "login_01_01_verified_email_context": "Your account has been successfully created.\nPlease click the button below to continue.",
+  "login_01_01_verify_link_expired_title": "Invalid Link",
+  "login_01_01_verify_link_expired_context": "You may have already verified,\n or your verification link may have expired.\nPlease try again.",
+  "login_01_01_verify_failed_title": "Verification failed",
+  "login_01_01_verify_failed_context": "An unknown error occurred.\nPlease try again.",
+
+  "@LOGIN_03": {},
+  "login_03_01_tooltip": "암호 화폐 지갑은 암호 화폐나 디지털 자산을\n안전하게 보관할 수 있는 곳 입니다.\n지갑에 보유자산 없이도 계정을 만들 수 있습니다.\n회원가입은 무료입니다.",
+
+  "@LOGIN_04": {},
+  "login_04_01_tooltip": "우리 서비스는 메타버스 세상에서\n이용자의 자유로운 활동 및 거래를 위해\n암호화된 블록체인 지갑을 사용합니다.\n지갑에 저장된 정보는 이용자의 자산을 보호합니다.",
+
+  "@CHAT_01": {},
+  "chat_01_01_chat": "채팅",
+  "chat_01_02_search_chat_room": "채팅방 검색",
+  "chat_01_03_close_chat": "닫기",
+
+  "@CHAT_02": {},
+  "chat_02_01_block_box": "차단함",
+
+  "@CHAT_04": {},
+  "chat_04_01_empty": "차단함이 비었습니다",
+
+  "@CHAT_05": {},
+  "chat_05_04_add_contact": "주소록에 추가",
+  "chat_05_05_unblock_contact_content": "차단이 해제되었습니다.\n{name}님을 지금 바로 주소록에 추가하시겠습니까?",
+  "@chat_05_05_unblock_contact_content": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+
+  "@CHAT_10": {},
+  "chat_10_01_archive": "보관",
+
+  "@CHAT_OPEN_01": {},
+  "chat_open_01_01_empty": "채팅 목록이 비었습니다.",
+  "chat_open_01_02_empty_content": "새로운 채팅을 시작해보세요.",
+  "chat_open_01_03_start_new_chat": "새로운 채팅 시작하기",
+
+  "@CHAT_OPEN_02": {},
+  "chat_open_02_01_search_user": "유저검색",
+  "chat_open_02_02_contacts": "주소록",
+  "chat_open_02_03_search_nickname_wallet": "아이디, 이름 검색",
+  "chat_open_02_04_recent_search": "최근 검색",
+  "chat_open_02_05_delete_all": "전체 삭제",
+
+  "@CHAT_OPEN_04": {},
+  "chat_open_04_01_no_result_title": "검색 결과가 없습니다.",
+  "chat_open_04_02_no_result_content": "유효한 주소 또는 이름을 입력해주세요.",
+
+  "@CHAT_OPEN_05": {},
+  "chat_open_05_01_search_result": "검색결과",
+
+  "@CHAT_ROOM_01": {},
+  "chat_room_01_01_message_user": "상대에게 메세지",
+
+  "@CHAT_ROOM_02": {},
+  "chat_room_02_01_send": "전송",
+  "chat_room_02_01_read": "읽음",
+
+  "@CHAT_ROOM_06": {},
+  "chat_room_06_01_block_user": "유저 차단",
+
+  "@CHAT_ROOM_07": {},
+  "chat_room_07_01_block_content": "{name}를 차단합니다. 상대의 메시지는 차단되고, 상대는 주소록에서 삭제됩니다.",
+  "@chat_room_07_01_block_content": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+
+  "@CHAT_ROOM_08": {},
+  "chat_room_08_01_not_send_message": "차단한 상대와는 대화할 수 없습니다.",
+
+  "@CHAT_ROOM_10": {},
+  "chat_room_10_01_send_image": "채팅방 보내기",
+  "chat_room_10_02_camera": "카메라",
+  "chat_room_10_03_take_camera": "아무 곳이나 클릭하여 사진을 촬영하세요.",
+
+  "@CHAT_ROOM_12": {},
+  "chat_room_12_01_archive_title": "채팅방 보관",
+  "chat_room_12_02_archive_content": "채팅방을 보관함으로 이동합니다.",
+
+  "@MY_01": {},
+  "my_01_01_more": "더보기",
+  "my_01_02_preview": "미리보기",
+  "my_01_03_settings": "설정",
+  "my_01_04_wallet": "아이디",
+  "my_01_04_wallet_notice": "Check the email we sent to keep your private keys safe",
+  "my_01_05_allow_message": "메세지 허용",
+  "my_01_06_show_online": "활동 상태 공개 설정",
+  "my_01_07_edit_profile": "프로필 편집",
+  "my_01_08_nickname": "닉네임",
+  "my_01_09_status_message": "상태 메세지",
+  "my_01_10_input_status_message": "상태메시지를 입력해 주세요.",
+  "my_01_11_select_allow_message": "메시지 허용 대상 설정",
+  "my_01_13_history_wallet": "옵션1",
+  "my_01_15_nft_owner": "옵션2",
+  "my_01_18_support_customer": "고객지원",
+  "my_01_19_brand": "브랜드 페이지",
+  "my_01_20_help": "이용약관",
+  "my_01_21_faq": "FAQ",
+  "my_01_22_square_email": "문의사항은 #color#{email}#color# 으로 이메일을 보내주세요.",
+  "@my_01_22_square_email": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+  "my_01_23_version": "Version",
+  "my_01_24_follow_us": "",
+  "more_page_wallet_type" : "Connected with",
+
+  "@MY_02": {},
+  "my_02_01_exist_name": "이미 존재하는 이름 입니다.",
+
+  "@MY_04": {},
+  "my_04_01_select_from_album": "앨범에서 선택",
+  "my_04_02_select_from_nft": "--",
+  "my_04_03_select_default": "기본 이미지로 변경",
+
+  "@MY_05": {},
+  "my_05_01_cut": "자르기",
+  "my_05_02_save_profile_image": "프로필 이미지로 저장",
+
+  "@MY_07": {},
+  "my_07_01_select_profile_image": "PFP 선택",
+  "my_07_01_no_image" : "이미지 없음",
+
+  "@MY_08": {},
+  "my_08_01_no_has_nft": "--",
+
+  "@PROFILE_01": {},
+  "profile_01_01_nft_square": "보유 스퀘어",
+  "profile_01_03_add_contact": "주소록 추가",
+  "profile_01_04_send_msg": "메시지 보내기",
+  "profile_01_05_block": "차단하기",
+  "profile_01_06_unblock": "차단 해제",
+  "profile_01_07_delete_contact": "주소록 삭제",
+
+  "@PROFILE_03": {},
+  "profile_03_01_enter_square": "스퀘어 입장",
+
+  "@PROFILE_04": {},
+  "profile_04_01_enter": "입장하기",
+  "profile_04_02_delete_contact": "주소록에서 삭제",
+  "profile_04_03_delete_contact_content": "{name}를 주소록에서 삭제할까요?",
+  "@profile_04_03_delete_contact_content": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+
+  "profile_04_04_name": "이름",
+
+  "@PROFILE_06": {},
+  "profile_06_01_nft_square": "--",
+
+  "@PROFILE_07": {},
+  "profile_07_01_set_nickname": "별명 설정",
+  "profile_07_02_set_nickname_content": "나에게만 상대 이름이 별명으로 표시 됩니다.",
+  "profile_07_03_target_nickname": "상대가 설정한 이름 : {nickname}",
+  "@profile_07_03_target_nickname": {
+    "placeholders": {
+      "nickname": {}
+    }
+  },
+
+  "@PROFILE_08": {},
+  "profile_square_top": "Square",
+  "profile_square_ai_member": "AI on board",
+
+  "@PROFILE_STATUS_01": {},
+  "profile_status_01_01_no_login": "접속 이력이 없습니다",
+
+  "@SQUARE_01": {},
+  "square_01_01_square": "스퀘어",
+  "square_01_03_participating_member": "참여중인 멤버",
+  "square_01_04_participating": "{num}명 참여중",
+  "@square_01_04_participating": {
+    "placeholders": {
+        "num": {}
+    }
+  },
+  "square_01_05_nft_collection_square": "추천 스퀘어",
+  "square_01_05_my_nft_collection_square": "컬렉션 스퀘어",
+  "square_01_06_search_address_collection": "컬렉션 이름 또는 주소로 검색",
+  "square_01_07_online": "명 온라인",
+  "square_01_08_participating": "명 참여중",
+  "square_01_09_url_copy": "채팅방 URL 복사",
+  "square_01_10_url_copied": "채팅방 URL 복사됨",
+  "square_01_11_by_member_count": "참여자 수 많은 순",
+  "square_01_12_abc": "이름순",
+  "square_01_13_member_count": "멤버",
+  "square_01_14_square_search": "스퀘어 검색",
+  "square_01_15_no_matches_found": "검색 결과가 없습니다.",
+  "square_01_16_no_matches_found_context_2": "유효한 주소 또는 이름을 입력해주세요.",
+  "square_01_16_no_matches_found_context": "유효한 주소 또는 이름을 입력해주세요.",
+  "square_01_17_recent_search": "최근 검색",
+  "square_01_18_remove_recent_search": "검색 기록 지우기",
+  "square_01_19_remove_recent_search_context": "최근 검색 기록을 모두 삭제하시겠습니까?",
+  "square_01_20_accessible_square": "입장 가능한 스퀘어",
+  "square_01_21_inaccessible_square": "입장 불가 스퀘어",
+  "square_01_22_remove_all": "전체 삭제",
+  "square_01_22_no_accessible_square": "입장 가능한 스퀘어가 없습니다.",
+  "square_01_23_no_accessible_square_context": "입장 가능한 스퀘어가 없습니다.\n보유한 NFT를 기준으로 입장 가능한 스퀘어가 표시됩니다.",
+  "square_01_25_report": "Report",
+  "square_01_26_report_dialog_title": "메세지 신고",
+  "square_01_27_report_dialog_context": "신고는 신중하게 진행해주시기 바랍니다.\n5명 이상에게 신고당한 메세지는 스퀘어에서 가려집니다.\n그래도 해당 메세지를 신고하시겠습니까?",
+  "square_01_28_reported_dialog_title": "이미 신고한 메시지",
+  "square_01_29_reported_dialog_context": "이미 신고한 메시지 입니다.",
+  "square_01_30_reported_message": "reported message",
+  "square_01_31_chat_restricted_dialog_title": "스퀘어 채팅 제한",
+  "square_01_32_chat_restricted_dialog_context": "스퀘어에서 부적절한 메시지 사용으로 인한 신고가 접수되었습니다.\n{year}년 {month}월 {day}일 {hour}:{minute}에 제한이 해제됩니다.",
+  "@square_01_32_chat_restricted_dialog_context" : {
+    "placeholders": {
+      "year": {},
+      "month": {},
+      "day": {},
+      "hour": {},
+      "minute": {}
+    }
+  },
+  "square_01_33_report_limit_dialog_title": "신고 제한",
+  "square_01_34_report_limit_dialog_context": "너무 많은 신고를 접수했습니다.\n나중에 다시 시도해주세요.",
+  "square_01_35_restricted_chat_bar_hint": "스퀘어 채팅이 일시적으로 금지됩니다.",
+  "square_01_36_square_cant_enter_dialog_title": "스퀘어 입장 제한",
+  "square_01_36_square_cant_enter_dialog_content": "--",
+  "square_01_38_reported": "reported",
+  "square_01_39_copy_link": "Copy Link",
+  "square_01_40_close_square": "Close Square",
+  "square_01_41_global_search": "검색 결과",
+  "square_01_42_join": "Join",
+  "square_01_43_leave": "Leave",
+  "square_01_44_square_search_content": "검색 결과가 없습니다.",
+  "square_01_45_trending_square_title": "트렌드",
+  "square_01_46_ai_chat_limit_reached_toast": "AI Chat Limit Reached",
+
+  "@SQUARE_04": {},
+  "square_04_01_no_search_result": "검색 결과가 없습니다.",
+  "square_04_01_secret_square": "컬렉션",
+  "square_04_01_public_square": "오픈 스퀘어",
+
+  "@ARCHIVE_02": {},
+  "archive_02_01_archived_room": "보관함",
+  "archive_02_02_empty_archived_room": "보관함이 비었습니다.",
+
+  "@ARCHIVE_05": {},
+  "archive_05_01_unarchive": "보관 해제",
+
+  "@ARCHIVE_06": {},
+  "archive_06_01_unarchive_content": "보관을 해제하고 채팅방 목록으로 이동합니다.",
+
+
+  "@POPUP_01": {},
+  "popup_01_not_found_camera": "카메라가 없습니다.",
+  "popup_02_edit_profile_title": "프로필 편집 나가기",
+  "popup_03_edit_profile_content": "나가면 변경사항이 저장되지 않습니다.",
+  "popup_04_fail_load_image_title": "이미지 불러오기 실패",
+  "popup_05_fail_load_image_content": "이미지를 불러올 수 없습니다.\n나중에 다시 시도해주세요.",
+  "popup_07_block_input_title": "연속 입력 방지",
+  "popup_08_block_input_content": "짧은 시간 안에 많은 메시지를\n 보낼수 없습니다. 잠시 후\n 다시 시도해주세요.",
+  "popup_09_do_not_myself_chat_title": "나와의 채팅 불가",
+  "popup_10_do_not_myself_chat_content": "자기 자신과는 채팅할 수 없습니다.",
+  "popup_11_do_not_reach_link": "Can't link with the blocked user. Do you want to unblock and chat with {name}?",
+  "@popup_11_do_not_reach_link": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "popup_12_feedback_leave": "If you cancel now,\nyour request will be deleted.",
+  "popup_12_feedback_content": "Your feedback helps make\nSQUARE better for everyone.\n(Feedback ID: {id})",
+  "@popup_12_feedback_content": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "popup_13_nft_select_title": "Can't choose",
+  "popup_13_nft_select_content": "Currently, only Ethereum NFT can be chosen as PFP",
+
+  "@SEARCH_HINT_01": {},
+  "search_hint_01_contacts_list": "이름 혹은 아이디로 검색",
+  "search_hint_01_add_new_address": "이름 혹은 아이디로 검색",
+  "search_hint_01_start_new_chat": "이름 혹은 아이디로 검색",
+  "search_hint_01_square_list": "이름 혹은 아이디로 검색",
+  "search_hint_01_square_search_all": "이름 혹은 아이디로 검색",
+  "search_hint_01_square_member_page": "이름 혹은 아이디로 검색",
+
+  "@FEEDBACK_01": {},
+  "feedback_01_send_feedback" : "피드백 전송",
+  "feedback_01_feedback_content" : "피드백은 큰 도움이 됩니다",
+  "feedback_01_report_problem" : "문제제기",
+  "feedback_01_suggest" : "제안",
+  "feedback_01_submit" : "등록",
+  "feedback_01_email" : "이메일",
+  "feedback_01_please_fill_out" : "이곳을 채워주세요",
+  "feedback_01_please_valid_email" : "적합한 형태의 이메일을 적어주세요.",
+  "feedback_01_email_hint" : "이메일 주소",
+  "feedback_01_description" : "설명",
+  "feedback_01_summarize_hint" : "피드백을 작성해주세요.",
+  "feedback_01_description_hint" : "메시지는 50자이상이어야 합니다.",
+  "feedback_01_upload_failed" : "업로드 실패",
+  "feedback_01_upload_failed_content" : "5개 이상 이미지는 올릴 수 없습니다.",
+  "feedback_01_upload_failed_content2" : "업로드 파일 크기가 {mb}MB 입니다./n25MB를 넘을 수 없습니다.",
+  "@feedback_01_upload_failed_content2": {
+    "placeholders": {
+      "mb": {}
+    }
+  },
+  "feedback_01_add_attachment" : "Add Attachment",
+  "feedback_01_thank_you" : "감사합니다",
+  "feedback_01_device" : "장치",
+  "feedback_01_browser" : "Browser : ",
+  "feedback_01_device_hint" : "모델, OS, 브라우저",
+  "feedback_01_choose_topic": "주제를 선택하세요",
+  "feedback_01_login": "로그인 문제",
+  "feedback_01_chat": "채팅",
+  "feedback_01_search": "검색",
+  "feedback_01_archive": "보관",
+  "feedback_01_block": "차단",
+  "feedback_01_square": "스퀘어",
+  "feedback_01_report": "신고",
+  "feedback_01_contacts": "친구",
+  "feedback_01_settings": "설정",
+  "feedback_01_user_profile": "유저 프로필",
+  "feedback_01_edit_profile": "프로필 편집",
+  "feedback_01_others": "기타",
+  "feedback_01_close": "종료",
+  "feedback_01_discard": "변경사항을 취소하겠습니까?",
+  "feedback_01_topic": "주제",
+  "feedback_01_description_error": "50자 이상 작성해야합니다",
+
+  "@AI_01": {},
+  "ai_01_create_ai_square": "스퀘어 생성",
+  "ai_01_square_name": "스퀘어 이름",
+  "ai_01_choose_ai": "캐릭터 선택",
+  "ai_01_randomize": "Randomize",
+  "ai_01_edit_ai_square": "스퀘어 편집",
+  "ai_01_change": "Change"
+
+}

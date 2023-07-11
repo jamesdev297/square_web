@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="SQUARE">
+  <meta name="twitter:image" content="https://square.test/assets/square_preview.png">
+
+  <meta property="og:image" content="assets/square_preview.png" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="400" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon-96x96.png" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="SQUARE">
+
+  <title>SQUARE</title>
+  <meta name="description" content="For test.">
+
+  <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+
+  <link rel="manifest" href="/manifest.json">
+  <style>
+    .body-1 {
+      margin: 0px;
+      background-color: #f8f8f8;
+    }
+    .body-2 {
+      margin: 0px;
+      background-color: #FFFFFF;
+    }
+  </style>
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="copy.js" defer></script>
+  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>-->
+</head>
+<body style="overflow: hidden; position: fixed;" class="body-1">
+<!-- Loading indicator -->
+<div id="loading">
+  <style>
+    #loading {
+      position: fixed;
+
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) scale(1);
+      margin-top: -100px;
+    }
+    #loading img {
+      animation: 1s ease-in-out 0s infinite alternate breathe;
+    }
+    #loading.main_done img {
+
+    }
+    #loading.init_done img {
+    }
+    @keyframes breathe { from { transform: scale(1); opacity: 1; }
+      to { transform: scale(1); opacity: .6; }}
+    @keyframes zooooom { from { transform: scale(1) }
+      to { transform: scale(10)}}
+
+    @keyframes fadeOut {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 0.1;
+      }
+    }
+  </style>
+  <img src="assets/square_logo.png" width="150" height="150" alt="SQUARE" />
+</div>
+<script>
+    window.addEventListener('load', function(ev) {
+      var loading = document.querySelector('#loading');
+
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: async function(engineInitializer) {
+          loading.classList.add('main_done');
+
+          let userAgent = navigator.userAgent;
+          let renderer = "html";
+          if(userAgent.includes("SamsungBrowser")) {
+             renderer = "canvaskit";
+          }
+          // Run-time engine configuration
+          let config = {
+            renderer: renderer
+          }
+          let appRunner = await engineInitializer.initializeEngine(config);
+          //loading.classList.add('init_done');
+          if (loading) {
+              loading.remove();
+          }
+
+          // Wait a few milliseconds so users can see the loading
+          // before getting rid of the "loading" div.
+          window.setTimeout(function () {
+            if (loading) {
+              loading.remove();
+              document.body.classList.remove('body-1');
+              document.body.classList.add('body-2');
+            }
+          }, 1000);
+          await appRunner.runApp();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

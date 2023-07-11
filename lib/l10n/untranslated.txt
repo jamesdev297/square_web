@@ -1,0 +1,5 @@
+{
+  "en": [
+    "square_01_05_my_nft_collection_square"
+  ]
+}

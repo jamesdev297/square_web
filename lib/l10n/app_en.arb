@@ -1,0 +1,505 @@
+{
+  "@COMMON": {},
+  "common_00_sign_message": "SQUARE wants you to connect your web3 account.",
+  "common_01_error_content": "An error has occurred. Please try again.",
+  "common_02_confirm": "Confirm",
+  "common_03_cancel": "Cancel",
+  "common_04_delete": "Delete",
+  "common_05_close": "Close",
+  "common_06_network": "Network error. Please try again.",
+  "common_07_expire_login": "Connection expired.\nPlease reconnect.",
+  "common_08_unknown_user": "Unknown User",
+  "common_09_loading": "Loading",
+  "common_10_sent_emoji": "Emoji",
+  "common_11_sent_image": "Photo",
+  "common_12_sent_video": "Video",
+  "common_15_seen_here": "Unread Messages",
+  "common_16_not_added_contact": "This user is not added. Beware of smishing and phishing.",
+  "common_17_not_sent": "Message not sent",
+  "common_18_copied": "Copied",
+  "common_19_logout": "Disconnect",
+  "common_20_logout_content": "See you soon.\nYou can use SQUARE on all your devices.\n(PC or mobile)",
+  "common_21_logout_title": "Are you sure to disconnect?",
+  "common_25_error": "Error",
+  "common_26_restart": "Restart",
+  "common_27_no": "No",
+  "common_28_week": "w",
+  "common_29_day": "d",
+  "common_30_hour": "h",
+  "common_31_minute": "m",
+  "common_32_sec": "s",
+  "common_33_now": "Now",
+  "common_34_minute": "{minutes}Minutes",
+  "@common_34_minute": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "common_35_edit": "Edit",
+  "common_36_complete": "Complete",
+  "common_37_delete_history_title": "Clear Searches",
+  "common_38_delete_history_content": "Are you sure to clear all searches?",
+  "common_39_no_history": "No Recent Searches",
+  "common_40_qr_login": "QR Connect",
+  "common_41_qr_login_content": "To connect on a mobile device,\nuse your camera app or\na QR code reader on your device.",
+  "common_42_qr_login_content": "#color#{sec}#color# secs left.",
+  "@common_42_qr_login_content" : {
+    "placeholders": {
+      "sec": {}
+    }
+  },
+  "common_43_video": "Video",
+  "common_44_image": "Image",
+  "common_45_saved": "Saved",
+  "common_46_expire": "Failed to load",
+  "common_47_close": "Do you want to leave SQUARE?",
+  "common_48_expire_session": "Session expired.\nPlease reconnect.",
+  "common_49_refresh": "Refresh",
+  "common_50_retry": "Please try again",
+  "common_51_copy": "Copy",
+  "common_52_limitSendImage": "Send Failed",
+  "common_53_limitSendImageContent": "Can't upload more than #color#{count} images.#color#",
+  "@common_53_limitSendImageContent": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "common_54_plus": "Zoom In",
+  "common_55_minus": "Zoom Out",
+  "common_56_original_size": "Original Size",
+  "common_57_scale": "Fit to screen",
+  "common_58_service_error": "failed to load\n please try again",
+  "common_59_service_error": "Oops, an error occurred",
+  "common_60_not_signed_up": "{name} has no activity yet.",
+  "@common_60_not_signed_up": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "common_61_chat_link_copy": "Chat link copied",
+  "common_62_temp_chat_system_message": "Chat disappears when you leave without sending a message.",
+  "common_63_save": "SAVE",
+  "common_64_try_again": "Try Again",
+  "common_65_set_language": "Set Language",
+
+  "@CONTACTS_01": {},
+  "contacts_01_01_contacts": "Contacts",
+  "contacts_01_02_search_wallet_name": "Name or address",
+  "contacts_01_03_my_profile": "My profile",
+  "contacts_01_04_abc": "Name",
+  "contacts_01_05_online": "Online",
+  "contacts_01_06_contacts": "Contacts {count}",
+  "@contacts_01_06_contacts": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "@CONTACTS_02": {},
+  "contacts_02_01_block_list": "Blocked",
+  "contacts_02_02_unblock_user": "Unblock",
+  "contacts_02_03_block_empty": "No users blocked",
+
+  "@CONTACTS_04": {},
+  "contacts_04_01_empty": "No Contacts..",
+  "contacts_04_02_empty_content": "You can add new contact \n by searching for name or wallet address.",
+  "contacts_04_03_add_contact": "Add New Contact",
+
+  "@CONTACTS_05": {},
+  "contacts_05_01_add_new_contact": "Add New Contact",
+
+  "@LOGIN_02": {},
+  "login_02_01_title": "Connect to ",
+  "login_02_02_content": "Connect your crypto wallet.",
+  "login_02_03_metamask": "MetaMask",
+  "login_02_04_klip_login": "Klip · KakaoTalk",
+  "login_02_05_text": "What's a crypto wallet?",
+  "login_02_06_text": "Why connect a crypto wallet?",
+  "login_02_07_qr": "{minutes} mins {sec} secs left.",
+  "@login_02_07_qr": {
+    "placeholders": {
+      "minutes": {},
+      "sec": {}
+    }
+  },
+  "login_02_08_kaikas_login": "Kaikas",
+  "login_02_09_kaikas_not_enabled": "Kaikas wallet is only supported on the Chrome browser.",
+  "login_02_08_google_login": "Sign in with Google",
+  "login_02_08_apple_login": "Sign in with Apple",
+
+  "login_01_01_title" : "Before You Connect",
+  "login_01_01_title_1" : "1. Never share security key.",
+  "login_01_01_content_1" : "--",
+  "login_01_01_title_2" : "2. Beware of similar sites.",
+  "login_01_01_content_2" : "--",
+  "login_01_01_title_3" : "3. Check before signing.",
+  "login_01_01_content_3" : "When connect MetaMask :",
+  "login_01_01_content_3_1" : "ｏ Origin: --",
+  "login_01_01_content_3_2" : "ｏ Message: --",
+  "login_01_01_content_3_3" : "ｏ --",
+  "login_01_01_title_4" : "4. Please log out after use",
+  "login_01_01_content_4" : "--",
+  "login_01_01_title_5" : "5. Please verify third-party terms of use",
+  "login_01_01_content_5" : "--",
+  "login_01_01_content_6" : "--",
+  "login_01_01_button" : "Understand and Continue",
+  "login_01_01_connect" : "Connect",
+  "login_01_01_verify_email_content_0": "--",
+  "login_01_01_verify_email_content_1": "Check the email we sent",
+  "login_01_01_verify_email_content_2": "to keep your private keys and seed phrase safe!",
+  "login_01_01_verify_email_content_3": "Not in inbox or spam folder?",
+  "login_01_01_verify_email_google_button" : "Open gmail to confirm",
+  "login_01_01_verify_email_skip_button" : "Skip",
+  "login_01_01_verify_email_resend_button" : "Resend Mail",
+  "login_01_01_verify_email_resend_delay": "You can resend email after {timer}",
+  "@login_01_01_verify_email_resend_delay": {
+    "placeholders" : {
+      "timer": {}
+    }
+  },
+  "login_01_01_fail_to_send_email_title": "Failed to send",
+  "login_01_01_fail_to_send_email_context_0": "Our attempt to send an email to",
+  "login_01_01_fail_to_send_email_context_1": "failed.",
+  "login_01_01_fail_to_send_email_context_2": "Please try again.",
+  "login_01_01_verified_email_title": "Congratulations!",
+  "login_01_01_verified_email_context": "Your account has been successfully created.\nPlease click the button below to continue.",
+  "login_01_01_verify_link_expired_title": "Invalid Link",
+  "login_01_01_verify_link_expired_context": "You may have already verified,\n or your verification link may have expired.\nPlease try again.",
+  "login_01_01_verify_failed_title": "Verification failed",
+  "login_01_01_verify_failed_context": "An unknown error occurred.\nPlease try again.",
+
+
+  "@LOGIN_03": {},
+  "login_03_01_tooltip": "--",
+
+  "@LOGIN_04": {},
+  "login_04_01_tooltip": "--",
+
+  "@CHAT_01": {},
+  "chat_01_01_chat": "Chat",
+  "chat_01_02_search_chat_room": "by name or address in chat list",
+  "chat_01_03_close_chat": "Close Chat",
+
+  "@CHAT_02": {},
+  "chat_02_01_block_box": "Block",
+
+  "@CHAT_04": {},
+  "chat_04_01_empty": "No chats blocked",
+
+  "@CHAT_05": {},
+  "chat_05_04_add_contact": "Add",
+  "chat_05_05_unblock_contact_content": "Unblocked. Add {name} to your contacts?",
+  "@chat_05_05_unblock_contact_content": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+
+  "@CHAT_10": {},
+  "chat_10_01_archive": "Archive",
+
+  "@CHAT_OPEN_01": {},
+  "chat_open_01_01_empty": "Welcome to SQUARE!",
+  "chat_open_01_02_empty_content": "You can start new chat with users \n by searching for their name or wallet address.",
+  "chat_open_01_03_start_new_chat": "Start New Chat",
+
+  "@CHAT_OPEN_02": {},
+  "chat_open_02_01_search_user": "Search for User",
+  "chat_open_02_02_contacts": "Contacts",
+  "chat_open_02_03_search_nickname_wallet": "Name or address",
+  "chat_open_02_04_recent_search": "Recent Searches",
+  "chat_open_02_05_delete_all": "Clear all",
+
+  "@CHAT_OPEN_04": {},
+  "chat_open_04_01_no_result_title": "No result found",
+  "chat_open_04_02_no_result_content": "Please enter a valid address or name.",
+
+  "@CHAT_OPEN_05": {},
+  "chat_open_05_01_search_result": "Search result",
+
+  "@CHAT_ROOM_01": {},
+  "chat_room_01_01_message_user": "Messages",
+
+  "@CHAT_ROOM_02": {},
+  "chat_room_02_01_send": "Send",
+  "chat_room_02_01_read": "Read",
+
+
+  "@CHAT_ROOM_06": {},
+  "chat_room_06_01_block_user": "Block User",
+
+  "@CHAT_ROOM_07": {},
+  "chat_room_07_01_block_content": "Do you want to block {name} from messaging you? This user will be removed from contacts.",
+  "@chat_room_07_01_block_content": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+
+  "@CHAT_ROOM_08": {},
+  "chat_room_08_01_not_send_message": "Can't send messages to a blocked user",
+
+  "@CHAT_ROOM_10": {},
+  "chat_room_10_01_send_image": "Send",
+  "chat_room_10_02_camera": "Camera",
+  "chat_room_10_03_take_camera": "Click anywhere to take a photo",
+
+  "@CHAT_ROOM_12": {},
+  "chat_room_12_01_archive_title": "Archive Chat",
+  "chat_room_12_02_archive_content": "Archive the chat.",
+
+  "@MY_01": {},
+  "my_01_01_more": "More",
+  "my_01_02_preview": "Preview",
+  "my_01_03_settings": "Settings",
+  "my_01_04_wallet": "Wallet",
+  "my_01_04_wallet_notice": "Check the email we sent to keep your private keys safe",
+  "my_01_05_allow_message": "Block Messages from",
+  "my_01_06_show_online": "Active Status",
+  "my_01_07_edit_profile": "Edit Profile",
+  "my_01_08_nickname": "Nickname",
+  "my_01_09_status_message": "Status",
+  "my_01_10_input_status_message": "What's on your mind?",
+  "my_01_11_select_allow_message": "Block Messages from",
+  "my_01_13_history_wallet": "Option1",
+  "my_01_15_nft_owner": "Option2",
+  "my_01_18_support_customer": "Help",
+  "my_01_19_brand": "Brand Page",
+  "my_01_20_help": "Terms of Use",
+  "my_01_21_faq": "FAQs",
+  "my_01_22_square_email": "#color#{email}#color#",
+  "@my_01_22_square_email": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+  "my_01_23_version": "Version",
+  "my_01_24_follow_us": "Follow Us",
+  "more_page_wallet_type" : "Connected with",
+
+  "@MY_02": {},
+  "my_02_01_exist_name": "Username is currently in use.",
+
+  "@MY_04": {},
+  "my_04_01_select_from_album": "Upload Photo",
+  "my_04_02_select_from_nft": "--",
+  "my_04_03_select_default": "Delete",
+
+  "@MY_05": {},
+  "my_05_01_cut": "Crop",
+  "my_05_02_save_profile_image": "Upload",
+
+  "@MY_07": {},
+  "my_07_01_select_profile_image": "--",
+  "my_07_01_no_image" : "No image",
+
+  "@MY_08": {},
+  "my_08_01_no_has_nft": "No NFTs to display.",
+
+  "@PROFILE_01": {},
+  "profile_01_01_nft_square": "Square",
+  "profile_01_03_add_contact": "Add",
+  "profile_01_04_send_msg": "Chat",
+  "profile_01_05_block": "Block",
+  "profile_01_06_unblock": "Unblock",
+  "profile_01_07_delete_contact": "Added",
+
+  "@PROFILE_03": {},
+  "profile_03_01_enter_square": "Join",
+
+  "@PROFILE_04": {},
+  "profile_04_01_enter": "Join",
+  "profile_04_02_delete_contact": "Remove from Contacts",
+  "profile_04_03_delete_contact_content": "Are you sure to remove {name} from contacts?",
+  "@profile_04_03_delete_contact_content": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+
+  "profile_04_04_name": "Username",
+
+  "@PROFILE_06": {},
+  "profile_06_01_nft_square": "Members Only",
+
+  "@PROFILE_07": {},
+  "profile_07_01_set_nickname": "Set Nickname",
+  "profile_07_02_set_nickname_content": "User nickname is visible only to me.",
+  "profile_07_03_target_nickname": "Username : {nickname}",
+  "@profile_07_03_target_nickname": {
+    "placeholders": {
+      "nickname": {}
+    }
+  },
+
+  "@PROFILE_08": {},
+  "profile_square_top": "Square",
+  "profile_square_ai_member": "AI on board",
+
+  "@PROFILE_STATUS_01": {},
+  "profile_status_01_01_no_login": "No activity yet.",
+
+  "@SQUARE_01": {},
+  "square_01_01_square": "Square",
+  "square_01_03_participating_member": "Members",
+  "square_01_04_participating": "{num}",
+  "@square_01_04_participating": {
+    "placeholders": {
+        "num": {}
+    }
+  },
+  "square_01_05_nft_collection_square": "My Square",
+  "square_01_06_search_address_collection": "by name or address",
+  "square_01_07_online": " online",
+  "square_01_08_participating": " members",
+  "square_01_09_url_copy": "Copy square link",
+  "square_01_10_url_copied": "Square link copied",
+  "square_01_11_by_member_count": "Popular",
+  "square_01_12_abc": "Name",
+  "square_01_13_member_count": "Members",
+  "square_01_14_square_search": "Search Square",
+  "square_01_15_no_matches_found": "No result found",
+  "square_01_16_no_matches_found_context_2": "--",
+  "square_01_16_no_matches_found_context": "--",
+  "square_01_17_recent_search": "Recent Searches",
+  "square_01_18_remove_recent_search": "Delete search history",
+  "square_01_19_remove_recent_search_context": "Delete all search history?",
+  "square_01_20_accessible_square": "My Square",
+  "square_01_21_inaccessible_square": "Other Square",
+  "square_01_22_remove_all": "Delete all",
+  "square_01_22_no_accessible_square": "No joined Squares.",
+  "square_01_23_no_accessible_square_context": "No joined Squares.",
+  "square_01_25_report": "Report",
+  "square_01_26_report_dialog_title": "Report Message",
+  "square_01_27_report_dialog_context": "Please report carefully.\nMessages reported by 5 users will be hidden in the square.\nAre you sure to report it?",
+  "square_01_28_reported_dialog_title": "Reported Message",
+  "square_01_29_reported_dialog_context": "Already reported this message.",
+  "square_01_30_reported_message": "reported message",
+  "square_01_31_chat_restricted_dialog_title": "Account Limited",
+  "square_01_32_chat_restricted_dialog_context": "SQUARE users reported your messages. Unfortunately, you will not be able to send messages in squares until {day} {month} {year}, {hour}:{minute}",
+  "@square_01_32_chat_restricted_dialog_context" : {
+    "placeholders": {
+      "year": {},
+      "month": {},
+      "day": {},
+      "hour": {},
+      "minute": {}
+    }
+  },
+  "square_01_33_report_limit_dialog_title": "Report Limit Reached",
+  "square_01_34_report_limit_dialog_context": "Can't report more than 5 users within 24 hours.",
+  "square_01_35_restricted_chat_bar_hint": "Can't send messages",
+  "square_01_36_square_cant_enter_dialog_title": "Members Only",
+  "square_01_36_square_cant_enter_dialog_content": "You have lost your ownership in the square.",
+  "square_01_38_reported": "reported",
+  "square_01_39_copy_link": "Copy Link",
+  "square_01_40_close_square": "Close Square",
+  "square_01_41_global_search": "Global Search",
+  "square_01_42_join": "Join",
+  "square_01_43_leave": "Leave",
+  "square_01_44_square_search_content": "--",
+  "square_01_45_trending_square_title": "Trending",
+  "square_01_46_ai_chat_limit_reached_toast": "AI Chat Limit Reached",
+
+  "@SQUARE_04": {},
+  "square_04_01_no_search_result": "No result found",
+  "square_04_01_secret_square": "Secret Square",
+  "square_04_01_public_square": "Public Square",
+
+  "@ARCHIVE_02": {},
+  "archive_02_01_archived_room": "Archives",
+  "archive_02_02_empty_archived_room": "No Archives",
+
+  "@ARCHIVE_05": {},
+  "archive_05_01_unarchive": "Unarchive",
+
+  "@ARCHIVE_06": {},
+  "archive_06_01_unarchive_content": "Unarchive the chat and restore it to the chat list.",
+
+  "@POPUP_01": {},
+  "popup_01_not_found_camera": "No camera found.",
+  "popup_02_edit_profile_title": "Discard Changes?",
+  "popup_03_edit_profile_content": "Are you sure to discard changes?",
+  "popup_04_fail_load_image_title": "Failed to load",
+  "popup_05_fail_load_image_content": "Failed to load.\nPlease try again.",
+  "popup_07_block_input_title": "Take it Easy",
+  "popup_08_block_input_content": "You are sending messages too quickly.",
+  "popup_09_do_not_myself_chat_title": "Can't reach",
+  "popup_10_do_not_myself_chat_content": "Can't send messages to yourself.",
+  "popup_11_do_not_reach_link": "Can't link with the blocked user. Do you want to unblock and chat with {name}?",
+  "@popup_11_do_not_reach_link": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "popup_12_feedback_leave": "If you cancel now,\nyour request will be deleted.",
+  "popup_12_feedback_content": "Your feedback helps make\nSQUARE better for everyone.\n#color#Feedback ID: {id}#color#",
+  "@popup_12_feedback_content": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "popup_13_nft_select_title": "Can't choose",
+  "popup_13_nft_select_content": "--",
+
+  "@SEARCH_HINT_01": {},
+  "search_hint_01_contacts_list": "by name or address in contacts",
+  "search_hint_01_add_new_address": "by name or address",
+  "search_hint_01_start_new_chat": "by name or address",
+  "search_hint_01_square_list": "by name or address on the list",
+  "search_hint_01_square_search_all": "by name or symbol or address",
+  "search_hint_01_square_member_page": "by name or address on the list",
+
+  "@FEEDBACK_01": {},
+  "feedback_01_send_feedback" : "Send Feedback",
+  "feedback_01_feedback_content" : "Your feedback helps make SQUARE better for everyone.",
+  "feedback_01_report_problem" : "Report a problem",
+  "feedback_01_suggest" : "Suggest",
+  "feedback_01_submit" : "Submit",
+  "feedback_01_email" : "Email",
+  "feedback_01_please_fill_out" : "Please fill out this field",
+  "feedback_01_please_valid_email" : "Please enter a valid email.",
+  "feedback_01_email_hint" : "Your email address",
+  "feedback_01_description" : "Description",
+  "feedback_01_summarize_hint" : "Please summarize your feedback",
+  "feedback_01_description_hint" : "Please provide as much detail as possible.\nMessage must be 50 to 500 characters.\n\n- When did you start having this issue? \n- Details of the problem you’re experiencing",
+  "feedback_01_upload_failed" : "Upload Failed",
+  "feedback_01_upload_failed_content" : "Can't upload more than #color#4 images.#color#",
+  "feedback_01_upload_failed_content2" : "The size of the uploaded files, {mb}MB,\nexceeds the maximum limit of #color#25MB.#color#",
+  "@feedback_01_upload_failed_content2": {
+    "placeholders": {
+      "mb": {}
+    }
+  },
+  "feedback_01_add_attachment" : "Add Attachment",
+  "feedback_01_thank_you" : "Thank you!",
+  "feedback_01_device" : "Device",
+  "feedback_01_browser" : "Browser : ",
+  "feedback_01_device_hint" : "brand, model, os, browser",
+  "feedback_01_choose_topic": "Choose Topic",
+  "feedback_01_login": "Connect / QR Connect",
+  "feedback_01_chat": "Chat",
+  "feedback_01_search": "Search",
+  "feedback_01_archive": "Archive / Unarchive",
+  "feedback_01_block": "Block / Unblock",
+  "feedback_01_square": "Square",
+  "feedback_01_report": "Report",
+  "feedback_01_contacts": "Contacts",
+  "feedback_01_settings": "Settings",
+  "feedback_01_user_profile": "User Profile",
+  "feedback_01_edit_profile": "Edit Profile",
+  "feedback_01_others": "Others",
+  "feedback_01_close": "Close",
+  "feedback_01_discard": "Discard Changes?",
+  "feedback_01_topic": "Topic",
+  "feedback_01_description_error": "Must be at least 50 characters",
+
+  "@AI_01": {},
+  "ai_01_create_ai_square": "Create Square",
+  "ai_01_square_name": "Square name",
+  "ai_01_choose_ai": "Choose AI",
+  "ai_01_randomize": "Randomize",
+  "ai_01_edit_ai_square": "Edit AI Square",
+  "ai_01_change": "Change"
+
+}
